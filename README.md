@@ -24,7 +24,9 @@ I made this project for my Computer Science course at **CCT College Dublin**. I 
 
 ## 🌐 Live Demo
 
-▶️ **[Try it on Replit](https://car-rental-system--johanndrums.replit.app)**
+
+▶️ **[CLICK HERE AND TRY THE PROJECT ON REPLIT](https://car-rental-system--johanndrums.replit.app)**
+
 
 You can use the program directly in your browser. You do not need to install anything.
 
