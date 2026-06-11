@@ -1,0 +1,33 @@
+
+    
+    1 - Gerenciar Clientes (Abre o Submenu CRUD)
+    
+        1 - Cadastrar Novo Cliente [✅]
+        2 - Listar Todos os Clientes  [✅]
+        3 - Atualizar Dados de Cliente [✅]
+        4 - Remover Cliente
+        5 - Voltar ao Menu Principal
+
+    2 - Booking
+    
+        1 - Create Booking [✅]
+        2 - View All Bookings
+
+    3 - Financial Report
+    
+
+    4 - Sair
+
+
+
+
+
+
+System.out.println(BLINK + RED +"\nALL FIELDS ARE MANDATORY. TRY AGAIN!"+ RESET);
+
+
+System.out.println(BLINK + RED +"\nALL FIELDS ARE MANDATORY. TRY AGAIN!"+ RESET);
+            
+            System.out.println("\nPress Enter");
+            scanner.nextLine();
+            ClearScreen.clearScreen();

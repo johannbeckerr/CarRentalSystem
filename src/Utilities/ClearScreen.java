@@ -1,0 +1,20 @@
+package Utilities;
+
+/**
+ * THIS CLASS CLEARS THE TERMINAL SCREEN.
+ * IT USES SPECIAL ANSI ESCAPE CODES TO MAKE THE CONSOLE LOOK CLEAN.
+ */
+public class ClearScreen {
+
+    /**
+     * THIS METHOD CLEARS ALL PREVIOUS TEXT FROM THE SCREEN.
+     * IT PRINTS A SPECIAL CODE AND FORCES THE TERMINAL TO UPDATE IMMEDIATELY.
+     */
+    public static void clearScreen() {
+        // PRINT THE SPECIAL ANSI CODES TO CLEAR THE SCREEN AND MOVE THE CURSOR TO THE TOP
+        System.out.print("\033[H\033[2J");
+        
+        // FLUSH THE OUTPUT STREAM TO MAKE SURE THE SCREEN CLEARS IMMEDIATELY
+        System.out.flush();
+    }
+}
